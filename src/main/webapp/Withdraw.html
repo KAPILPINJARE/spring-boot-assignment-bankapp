@@ -1,0 +1,32 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="main.js"></script>
+</head>
+
+<body style="background-color:lightblue">
+
+  <form action="/BankAppSpringMVC/app/bank/withdraw" method="post">
+    <div style="margin-left: 50ch"><h3>Withdraw</h3></div>
+    <div class="form-group col-md-8">
+      <label for="Account Number">Account Id</label>
+      <input type="number" name="account_id" class="form-control" id="number" placeholder="Enter account number">
+    </div>
+    <div class="form-group col-md-8">
+      <label for="number">Amount</label>
+      <input type="number" name="amount" class="form-control" placeholder="amount that you want to withdraw">
+    </div>
+   <div class="form-group form-check col-md-8">
+      <button type="submit" class="btn btn-primary">Withdraw</button>
+    </div>
+  </form>
+</body>
+
+</html>
